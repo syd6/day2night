@@ -30,7 +30,7 @@ function draw(){
     fill(backgroundColor);
     ellipse(moonConstrainX*1.20, moonConstrainX, 80, 80); 
 
-    if (mouseX <= width/2 && mouseY <=height/2 ){
+    if (mouseX <= width/2){
         for (var i = 0; i < clouds.length; i++) {
             clouds[i].move();
             clouds[i].display();
